@@ -1,0 +1,52 @@
+#table-outer-container {
+    border-radius: 10px;
+    border: 1px solid #B0B0B0;
+    background: #EEE;
+    display: inline-grid;
+    width: 328px;
+    padding: 38px 0 57px 0;
+    margin-right: 20px;
+    margin-bottom: 21px;
+    height: 150px;
+}
+
+#number {
+    color: #1F1F1F;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#participants {
+    color: #1F1F1F;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#winner {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.light-grey-text {
+    color: #969696;
+}
+
+.grey-text {
+    color: #737373;
+}
+
+.green-text {
+    color: #20DF7F;
+}

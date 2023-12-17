@@ -1,0 +1,71 @@
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.ml-a {
+    margin-left: auto;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}

@@ -1,0 +1,11 @@
+.match-list-link {
+    text-decoration: none;
+}
+
+.match-list-link:hover {
+    opacity: 0.75;
+}
+
+.match-list-link:active {
+    opacity: 0.5;
+}

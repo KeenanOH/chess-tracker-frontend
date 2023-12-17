@@ -1,0 +1,38 @@
+#title-bar {
+    background: #F7F7F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.10);
+    height: 100px;
+    width: 100%;
+    color: #000;
+    font-family: Poppins, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    text-indent: 44px;
+    margin-bottom: 49px;
+    display: flex;
+    overflow: hidden;
+}
+
+.title-bar-text {
+    /*margin-left: auto;*/
+    margin-right: 44px;
+    color: #4A9BE5;
+    text-align: right;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    background: none;
+    text-decoration: none;
+}
+
+.title-bar-text:hover {
+    opacity: 0.75;
+}
+
+.title-bar-text:active {
+    opacity: 0.5;
+}
