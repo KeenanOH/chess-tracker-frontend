@@ -1,5 +1,5 @@
 import Match from "./models/Match";
-import { PopulatedBoard, Board } from "./models/Board";
+import {Board, PopulatedBoard} from "./models/Board";
 import School from "./models/School";
 import User from "./models/User";
 

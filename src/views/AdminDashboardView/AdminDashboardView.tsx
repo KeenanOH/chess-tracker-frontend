@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react"
+import React, {useState} from "react"
 import {useLoaderData} from "react-router-dom";
 import Match from "../../models/Match";
 
@@ -29,7 +29,7 @@ export default function AdminDashboardView() {
     async function handleCreateUserSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault()
         console.log(username, password, school, token)
-        if (username == "" || password == "" || school == "" || !token) return
+        if (username === "" || password === "" || school === "" || !token) return
 
         await createUser(token, username, password, school)
 
@@ -38,7 +38,7 @@ export default function AdminDashboardView() {
 
     async function handleCreateMatchSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault()
-        if (homeSchool == "" || awaySchool == "" || date == "" || !token) return
+        if (homeSchool === "" || awaySchool === "" || date === "" || !token) return
 
         await createMatch(token, homeSchool, awaySchool, date)
 

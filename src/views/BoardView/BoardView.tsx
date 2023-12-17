@@ -1,8 +1,8 @@
 import React from "react"
-import {Params, useLoaderData, useNavigate, useParams} from "react-router-dom"
+import {useLoaderData, useNavigate, useParams} from "react-router-dom"
 
 import TitleBar from "../../components/misc/TitleBar"
-import { PopulatedBoard } from "../../models/Board"
+import {PopulatedBoard} from "../../models/Board"
 import BoardGrid from "./components/BoardGrid"
 import SectionContainer from "../../components/misc/SectionContainer"
 import Title from "../../components/typography/Title"
@@ -10,7 +10,6 @@ import BackButton from "../../components/interaction/BackButton"
 import Subtitle from "../../components/typography/Subtitle";
 import Button from "../../components/interaction/Button";
 import {deleteMatch} from "../../api";
-import {stat} from "fs";
 
 interface BoardViewProps {
     isAdmin: boolean

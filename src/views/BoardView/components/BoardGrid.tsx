@@ -1,8 +1,8 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import {Link} from "react-router-dom"
 
 import TableDisplay from "./TableDisplay"
-import { PopulatedBoard } from "../../../models/Board"
+import {PopulatedBoard} from "../../../models/Board"
 
 import "./BoardGrid.css"
 

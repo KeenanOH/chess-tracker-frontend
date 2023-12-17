@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import './LoginView.css';
 import {login} from "../../api";
 import InputBox from "../../components/interaction/InputBox";

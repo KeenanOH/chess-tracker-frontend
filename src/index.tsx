@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import LoginView from "./views/LoginView/LoginView";
@@ -6,13 +6,12 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import DashboardView from "./views/DashboardView/DashboardView";
 import BoardView from "./views/BoardView/BoardView";
 import SubmitView from "./views/SubmitView/SubmitView";
-import {getBoard, getBoards, getMatches, getSchools, getUsers} from "./api";
+import {getBoard, getBoards, getSchools, getUsers} from "./api";
 import "./style.css"
 import Token from "./models/Token";
 import {Buffer} from 'buffer';
 import AdminDashboardView from "./views/AdminDashboardView/AdminDashboardView";
 import {loadMatches} from "./loaders";
-
 
 
 function App() {

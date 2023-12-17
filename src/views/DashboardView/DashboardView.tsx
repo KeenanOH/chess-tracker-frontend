@@ -1,5 +1,5 @@
 import React from "react"
-import { useLoaderData } from "react-router-dom"
+import {useLoaderData} from "react-router-dom"
 
 import TitleBar from "../../components/misc/TitleBar"
 import Match from "../../models/Match"

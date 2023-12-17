@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import {Link} from "react-router-dom"
 
 import Match from "../../../models/Match"
 import ListRow from "./ListRow"
